@@ -25,11 +25,6 @@
       "Iteearmah\\IsEven\\": "src/"
     }
   },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "dev-main"
-    }
-  },
   "minimum-stability": "dev",
   "config": {
     "sort-packages": true
