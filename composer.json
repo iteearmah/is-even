@@ -1,7 +1,40 @@
- {
-   "name": "iteearmah/is-even",
-    "description": "Return true if the given number is even.",
-    "require": {
-        "php": ">=7.4"
+{
+  "name": "iteearmah/is-even",
+  "description": "Return true if the given number is even.",
+  "keywords": [
+    "is-even",
+    "even number php",
+    "even number",
+    "check even number"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Samuel Armah",
+      "email": "iteearmah@gmail.com",
+      "homepage": "https://about.me/samuelarmah",
+      "role": "Developer"
     }
- }
+  ],
+  "require": {
+    "php": ">=5.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Iteearmah\\IsEven\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "dev-main"
+    }
+  },
+  "minimum-stability": "dev",
+  "config": {
+    "sort-packages": true
+  },
+  "require-dev": {
+    "phpunit/phpunit": "9.5.x-dev"
+  }
+}
