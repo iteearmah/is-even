@@ -2,6 +2,6 @@
    "name": "iteearmah/is-even",
     "description": "Return true if the given number is even.",
     "require": {
-        "php": ">=7.4",
+        "php": ">=7.4"
     }
  }
